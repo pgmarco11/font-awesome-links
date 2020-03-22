@@ -204,14 +204,14 @@ class fa_slinks_widget extends WP_Widget {
 						</li>
 						<?php } if( !empty( $instance['li_link'] ) ) { ?>
 						<li>
-						<a href="<?php echo esc_url( $instance['li_link'] ); ?>" data-toggle="tooltip" title="Facebook"><?php if( !empty( $instance['li_icon'] ) ) { 
+						<a href="<?php echo esc_url( $instance['li_link'] ); ?>" data-toggle="tooltip" title="LinkedIn"><?php if( !empty( $instance['li_icon'] ) ) { 
 							echo sprintf( $instance['li_icon'] ); } 
 						?>
 						</a>
 						</li>
 						<?php } if( !empty( $instance['pi_link'] ) ) { ?>
 						<li>
-						<a href="<?php echo esc_url( $instance['pi_link'] ); ?>" data-toggle="tooltip" title="Facebook"><?php if( !empty( $instance['pi_icon'] ) ) { 
+						<a href="<?php echo esc_url( $instance['pi_link'] ); ?>" data-toggle="tooltip" title="Pinterest"><?php if( !empty( $instance['pi_icon'] ) ) { 
 							echo sprintf( $instance['pi_icon'] ); } 
 						?>
 						</a>
